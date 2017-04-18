@@ -1,91 +1,128 @@
 <!DOCTYPE html>
-<html lang="{{ config('app.locale') }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+   
+    <title>The Skateraw Fair :: 21st - 24th June 2017 :: Newtonhill, Aberdeenshire</title>
 
-        <title>Skateraw Fair Website - Coming Soon</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="http://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/colorbox.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link id="skin" href="css/skin-default.min.css" rel="stylesheet"> 
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
+    <!-- begin:css-for-demo -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/demo.css"> -->
+    <!-- end:css-for-demo -->
 
-            .full-height {
-                height: 100vh;
-            }
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
+  <body data-spy="scroll" data-target=".navbar-default">
 
-            .position-ref {
-                position: relative;
-            }
+        <!-- begin:navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs" href="#home">The Skateraw Fair</a>
+        </div>
 
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="events">Events</a></li>
+            <li><a href="gallery">Gallery</a></li>
+            <li><a href="information">Information</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <!-- end:navbar -->
 
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Skateraw Fair Website
-                </div>
-
-                <div class="links">
-                    Coming Soon
+   
+     <!-- begin:home -->
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Lorem Ipsum</h1>
+                    <h3><span>Newtonhill Village Association Present</span></h3>
+                    <h2> THE SKATERAW FAIR! </h2>
+                    <h4>A Week Of Events For All The Family</h4>
+                    <h5><span>21st - 24th June 2017</span></h5>
                 </div>
             </div>
         </div>
-    </body>
+    </section>
+    <!-- end:home -->
+    
+
+    <!-- begin:copyright -->
+    <section id="copyright">
+        <div class="line"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Lorenso & Julia</h2>
+                    <h3>Yang sangat berbahagia</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-inline social-icon">
+                        <li><a href="#" class="icon-twitter" rel="tooltip" title="Twitter" data-placement="top"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icon-facebook" rel="tooltip" title="Facebook" data-placement="top"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="#" class="icon-google" rel="tooltip" title="Google Plus" data-placement="top"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icon-instagram" rel="tooltip" title="Instagram" data-placement="top"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Skateraw Fair website built with <i class="fa fa-heart-o"></i> by <a href="https://robertcooper.xyz" target="_blank">Robert Cooper</a></p>
+                    <p>Copyright &copy; {{ date('Y') }} All Right Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end:copyright -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+    <script src="js/gmap3.js"></script>
+    <script src="js/jquery.colorbox.js"></script>
+    <script src="js/jquery.easing.js"></script> 
+    <script src="js/script.js"></script>
+
+  </body>
 </html>
