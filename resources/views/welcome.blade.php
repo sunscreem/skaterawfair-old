@@ -8,17 +8,19 @@
     <title>The Skateraw Fair :: 21st - 24th June 2017 :: Newtonhill, Aberdeenshire</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
     <link href="http://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/colorbox.css" rel="stylesheet">
-    <link href="css/style.min.css" rel="stylesheet">
-    <link id="skin" href="css/skin-default.min.css" rel="stylesheet"> 
+    <!-- <link href="css/animate.css" rel="stylesheet"> -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href="css/colorbox.css" rel="stylesheet"> -->
+    <!-- <link href="css/style.min.css" rel="stylesheet"> -->
+    <link href="css/app.css" rel="stylesheet" type="text/css"> 
+
+    <!-- <link id="skin" href="css/skin-orange.min.css" rel="stylesheet">  -->
 
     <!-- begin:css-for-demo -->
     <!-- <link rel="stylesheet" type="text/css" href="css/demo.css"> -->
@@ -68,11 +70,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Lorem Ipsum</h1>
-                    <h3><span>Newtonhill Village Association Present</span></h3>
+                    <h1>Newtonhill Village Association</h1>
+                    <h3><span>Proudly Presents</span></h3>
                     <h2> THE SKATERAW FAIR! </h2>
                     <h4>A Week Of Events For All The Family</h4>
-                    <h5><span>21st - 24th June 2017</span></h5>
+                    <h5><span>19th - 24th June 2017</span></h5>
                 </div>
             </div>
         </div>
@@ -82,30 +84,25 @@
 
     <!-- begin:copyright -->
     <section id="copyright">
-        <div class="line"></div>
-        <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <h2>Lorenso & Julia</h2>
-                    <h3>Yang sangat berbahagia</h3>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="list-inline social-icon">
-                        <li><a href="#" class="icon-twitter" rel="tooltip" title="Twitter" data-placement="top"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="icon-facebook" rel="tooltip" title="Facebook" data-placement="top"><i class="fa fa-facebook-square"></i></a></li>
-                        <li><a href="#" class="icon-google" rel="tooltip" title="Google Plus" data-placement="top"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#" class="icon-instagram" rel="tooltip" title="Instagram" data-placement="top"><i class="fa fa-instagram"></i></a></li>
+                <div class="col-md-3">
+                     <ul class="list-inline social-icon">
+                        <li>
+                            <a href="https://www.facebook.com/skaterawfair/" class="icon-facebook" rel="tooltip" title="Visit Our Facebook Page" data-placement="top"><i class="fa fa-facebook-square"></i></a>
+                        </li>
                     </ul>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <p>Skateraw Fair website built with <i class="fa fa-heart-o"></i> by <a href="https://robertcooper.xyz" target="_blank">Robert Cooper</a></p>
+                    <p>Spotted a mistake or have a contribution? <a href="#">Contact Us</a> or <a href="https://github.com/sunscreem/skaterawfair">Use GitHub</a></p> 
                     <p>Copyright &copy; {{ date('Y') }} All Right Reserved.</p>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-inline social-icon">
+                        <li>
+                            <a href="https://github.com/sunscreem/skaterawfair" class="icon-github" rel="tooltip" title="Open Source Website - GitHub" data-placement="top"><i class="fa fa-github"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

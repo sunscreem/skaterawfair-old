@@ -1,9 +1,14 @@
+$text-grey: #333;
 
-// Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import 'bootstrap';
+@import 'animate';
+@import 'colorbox';
+@import 'font-awesome';
+@import "theme";
+@import "orange";
+@import "custom";
+// @import 'skin';
 
-// Variables
-@import "variables";
-
-// Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// body {
+// 	background-color:red;
+// }

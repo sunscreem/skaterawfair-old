@@ -72,7 +72,7 @@ a {
   transition: all 0.3s ease-in-out;
 }
 a:hover {
-  color: #999;
+  color: $text-grey;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -180,7 +180,7 @@ a:hover {
   background-position: initial;
   background-repeat: no-repeat;
   background-attachment: initial;
-  color: #999;
+  color: $text-grey;
   border: 1px solid #bbb;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
@@ -223,7 +223,7 @@ a:hover {
 .navbar-default {
   min-height: 65px;
   background-color: transparent;
-  background-image: url('../img/bg.png');
+  background-image: url('/images/bg.png');
   -webkit-background-size: auto;
   -moz-background-size: auto;
   -ms-background-size: auto;
@@ -277,7 +277,7 @@ a:hover {
   padding-right: 24px;
   padding-bottom: 22px;
   padding-left: 24px;
-  color: #999;
+  color: $text-grey;
   font-family: 'EB Garamond', serif;
   font-size: 18px;
   line-height: 23px;
@@ -304,7 +304,7 @@ a:hover {
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125) !important;
 }
 .navbar-default .navbar-nav > li > a:focus {
-  color: #999;
+  color: $text-grey;
   box-shadow: none;
   background-color: transparent;
 }
@@ -338,7 +338,7 @@ a:hover {
   padding-bottom: 60px;
   padding-left: 0;
   background-color: transparent;
-  background-image: url('../img/img01.jpg');
+  background-image: url('/images/montage.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -364,13 +364,14 @@ a:hover {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(6, 3, 0, 0.59);
+  // background-color: rgba(0, 0, 0, 0.35);
 }
 #home h1 {
   padding-bottom: 30px;
   font-family: 'Dancing Script', cursive;
-  font-size: 85px;
-  line-height: 87px;
+  font-size: 44px;
+  line-height: 50px;
   font-weight: 700;
   color: #fff;
   text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -379,7 +380,7 @@ a:hover {
 #home h2 {
   padding-top: 20px;
   font-family: 'Raleway', sans-serif;
-  font-size: 120px;
+  font-size: 90px;
   line-height: 122px;
   font-weight: 900;
   color: #a4c956;
@@ -398,14 +399,14 @@ a:hover {
 #home h3 {
   position: relative;
   font-family: 'EB Garamond', serif;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 23px;
+  line-height: 19px;
   font-weight: 400;
   color: #fff;
   text-align: center;
   text-transform: capitalize;
-  letter-spacing: 5px;
-  text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.25);
+  letter-spacing: 4px;
+  text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.95);
 }
 #home h3::before {
   content: "";
@@ -503,21 +504,21 @@ a:hover {
 }
 #home h4 {
   font-family: 'EB Garamond', serif;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 30px;
+  line-height: 40px;
   font-weight: 400;
   color: #fff;
   text-align: center;
   text-transform: capitalize;
-  letter-spacing: 8px;
-  text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.4);
+  letter-spacing: 6px;
+  text-shadow: 3px 1px 0 rgba(0, 0, 0, 0.78);
 }
 #home h5 {
   display: block;
   margin-top: 40px;
   margin-bottom: 30px;
   font-family: 'EB Garamond', serif;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 34px;
   font-weight: 400;
   color: #fff;
@@ -562,7 +563,7 @@ a:hover {
   font-weight: 300;
   color: #888;
   background-color: transparent;
-  background-image: url('../img/bg.png');
+  background-image: url('/images/bg.png');
   -webkit-background-size: auto;
   -moz-background-size: auto;
   -ms-background-size: auto;
@@ -645,7 +646,7 @@ a:hover {
   margin-bottom: 5px;
   display: block;
   background-color: transparent;
-  background-image: url('../img/img05.jpg');
+  background-image: url('/images/img05.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -675,7 +676,7 @@ a:hover {
   padding-bottom: 80px;
   padding-left: 0;
   background-color: transparent;
-  background-image: url('../img/img04.jpg');
+  background-image: url('/images/img04.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -869,7 +870,7 @@ a:hover {
   font-weight: 300;
   color: #888;
   background-color: transparent;
-  background-image: url('../img/bg.png');
+  background-image: url('/images/bg.png');
   -webkit-background-size: auto;
   -moz-background-size: auto;
   -ms-background-size: auto;
@@ -1039,7 +1040,7 @@ a:hover {
   list-style: none;
   list-style-type: none;
   background-color: transparent;
-  background-image: url('../img/bg_timeline.png');
+  background-image: url('/images/bg_timeline.png');
   -webkit-background-size: 2px auto;
   -moz-background-size: 2px auto;
   -ms-background-size: 2px auto;
@@ -1772,7 +1773,7 @@ a:hover {
   width: 100%;
   padding: 80px 0 10px;
   background-color: transparent;
-  background-image: url('../img/bg.png');
+  background-image: url('/images/bg.png');
   -webkit-background-size: auto;
   -moz-background-size: auto;
   -ms-background-size: auto;
@@ -1797,7 +1798,7 @@ a:hover {
   line-height: 20px;
   font-weight: 400;
   text-align: center;
-  color: #999;
+  color: $text-grey;
   text-transform: capitalize;
   letter-spacing: 8px;
 }
@@ -1807,15 +1808,15 @@ a:hover {
   line-height: 16px;
   font-weight: 400;
   text-align: center;
-  color: #999;
+  color: $text-grey;
   text-transform: uppercase;
 }
 #copyright .social-icon {
   display: table;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  // padding-top: 40px;
+  // padding-bottom: 40px;
 }
 #copyright .social-icon > li > a {
   position: relative;
