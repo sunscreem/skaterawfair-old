@@ -53,11 +53,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#home">Home</a></li>
-            <li><a href="about">About</a></li>
-            <li><a href="events">Events</a></li>
-            <li><a href="gallery">Gallery</a></li>
-            <li><a href="information">Information</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#information">Information</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -81,6 +81,47 @@
     </section>
     <!-- end:home -->
     
+
+    <!-- begin:about -->
+    <section id="about">
+        <div class="line"></div>
+        <div class="about-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Then...</h2>
+                        <p>The Skateraw Fair started off as a 'wee' gala before the war and came back as "its a knockout" competition in 1977.</p>
+                        <p>In 1980, an official committee was set up, the name was changed to Skateraw Fair and was decided to have said fair every year. By this point, the fair was held in a marquee. Initially just for the fair and a dance in the evening. This spread to having disco's for the kids in the days leading up to the fair and 
+                        then the addition of events to include activities for all ages.</p>
+                   
+                    </div>
+                    <!-- break -->
+
+
+
+                    <div class="col-md-4">
+                        <div class="about-img-container"></div>
+                        <img src="images/bottom.png" class="about-img img-responsive">
+                    </div>
+                    <!-- break -->
+
+                    <div class="col-md-4">
+                        <h2>Now...</h2>
+                        <p>The fair usually takes place in June and is now held in and around <a href="https://www.google.co.uk/maps/place/The+Bettridge+Centre/@57.0529774,-2.1914299,11.71z/data=!4m5!3m4!1s0x0:0xd3b533a90cc025f6!8m2!3d57.0301229!4d-2.148485">Newtonhill's Bettridge Centre</a> as is the centerpeice event, <a href="https://www.facebook.com/events/222477248156634/">The Skateraw Fair Dance</a>.</p>
+                        <p>There is now a family night, football tournaments, a charity match and much more. </p>
+                        <blockquote>
+                           "We are always looking for volunteers so feel free to come along to our committee meetings!"
+
+                            <small>Alanna Cooper - Chairperson</small>
+                        </blockquote>
+                    </div>
+                    <!-- break -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end:about -->
 
     <!-- begin:copyright -->
     <section id="copyright">
