@@ -21,7 +21,7 @@
 	[4. ABOUT]
 	[5. CEREMONY]
 	[6. PHOTOS]
-	[7. STORY]
+	[7. events]
 	[8. CONTACT]
 	[9. COPYRIGHT]
 
@@ -1006,10 +1006,10 @@ a:hover {
 
 /*
 	================
-	[7. STORY]
+	[7. events]
 	================
 */
-#story {
+#events {
   position: relative;
   width: 100%;
   padding-top: 120px;
@@ -1019,17 +1019,17 @@ a:hover {
   background: #efefef;
 }
 @media (max-width: 600px) {
-  #story {
+  #events {
     padding-top: 100px;
   }
 }
-#story h2 {
+#events h2 {
   padding-bottom: 30px;
   font-family: 'Dancing Script', cursive;
   font-size: 85px;
   line-height: 87px;
   font-weight: 700;
-  color: #fff;
+  color: $orange;
   text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
 }
